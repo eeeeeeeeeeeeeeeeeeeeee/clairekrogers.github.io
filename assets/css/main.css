@@ -940,10 +940,11 @@
 			margin: 0 0 2em 0;
 		}
 
-			.image.centered img {
-				margin: 0 auto;
-				width: auto;
-			}
+		.image.centered img {
+			margin: 0 auto;
+			width: auto;
+		}
+
 
 /* Button */
 
@@ -1405,14 +1406,14 @@
 					#me header > h1 {
 						position: absolute;
 						left: 0;
-						bottom: 52.5%;
+						bottom: 60%;
 						margin: 0;
 					}
 
 					#me header > p {
 						position: absolute;
 						left: 0;
-						top: 52.5%;
+						top: 45%;
 						font-size: 1.5em;
 						letter-spacing: -0.015em;
 						margin-top: 0;
@@ -1585,8 +1586,11 @@
 
 /* CSS customization */
 
+.location {
+	margin-top: 210px;
+}
 .skills {
-	margin-top: 230px;
+	/*margin-top: 230px;*/
 	width: 500px;
 }
 
@@ -1597,5 +1601,19 @@
 
 .project-description {
 	font-size: 16px;
+	line-height: 20px;
+}
 
+/* doesn't work :(
+.project-pic:hover {
+	background-color: rgba(0,0,0,.5);
+}*/
+
+.fa-cog {
+	font-size: 16px;
+	vertical-align: middle;
+}
+
+nav {
+	margin-top: 25px;
 }
