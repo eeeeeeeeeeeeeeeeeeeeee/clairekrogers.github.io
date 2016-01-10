@@ -1617,3 +1617,20 @@
 nav {
 	margin-top: 25px;
 }
+
+/*.fa-github::before .fa-linkedin-square::before {
+	color: black;
+}*/
+
+.fa-github:before {
+	color: black;
+}
+
+/* don't work :( */
+.fa-github:hover {
+	color: blue;
+}
+
+.fa-linkedin-square:before {
+	color: black;
+}
