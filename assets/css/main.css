@@ -1582,3 +1582,20 @@
 					}
 
 	}
+
+/* CSS customization */
+
+.skills {
+	margin-top: 230px;
+	width: 500px;
+}
+
+.project-title {
+	margin-top: 20px;
+	font-weight: bold;
+}
+
+.project-description {
+	font-size: 16px;
+
+}
