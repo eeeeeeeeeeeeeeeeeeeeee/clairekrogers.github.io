@@ -1623,7 +1623,7 @@ nav {
 }*/
 
 .fa-github:before {
-	color: indianred;
+	color: black;
 }
 
 /* don't work :( */
@@ -1632,5 +1632,9 @@ nav {
 }
 
 .fa-linkedin-square:before {
-	color: indianred;
+	color: black;
+}
+
+img.project-pic:hover {
+	background-color: rgba(0,0,0,.5);
 }
