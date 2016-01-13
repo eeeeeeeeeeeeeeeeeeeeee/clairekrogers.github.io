@@ -1623,14 +1623,14 @@ nav {
 }*/
 
 .fa-github:before {
-	color: black;
+	color: indianred;
 }
 
 /* don't work :( */
 .fa-github:hover {
-	color: blue;
+	color: yellow;
 }
 
 .fa-linkedin-square:before {
-	color: black;
+	color: indianred;
 }
