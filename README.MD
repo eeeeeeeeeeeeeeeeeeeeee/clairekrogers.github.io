@@ -1,3 +1,3 @@
 # Claire Rogers Portfolio
 
-Live at [clairekrogers.com] (clairekrogers.com)
+Live at [clairekrogers.com] (http://clairekrogers.com)
