@@ -1594,20 +1594,77 @@
 	width: 500px;
 }
 
+.project {
+	display: inline-block;
+	margin-bottom: 75px;
+}
+
+.project-pic {
+	float: left;
+}
+
+.project-pic-link {
+	float: left;
+}
+
 .project-title {
 	margin-top: 20px;
 	font-weight: bold;
+	/*float: left*/
 }
 
 .project-description {
+	display: inline-block;
 	font-size: 16px;
 	line-height: 20px;
+	margin-left: 50px;
+	margin-top: 5px;
+	min-width: 400px;
 }
 
-/* doesn't work :(
-.project-pic:hover {
-	background-color: rgba(0,0,0,.5);
-}*/
+.project-title {
+	vertical-align: top;
+	display: inline;
+	margin-left: 50px;
+}
+
+.hidden-link {
+	visibility: hidden;
+	height: 195px;
+}
+
+.project-pic-link:hover .hidden-link {
+	visibility: visible;
+	position: absolute;
+	color: white;
+	background: rgba(0,0,0,0.5);
+	width: 260px;
+	height: 195px;
+	text-align: center;
+	padding-top: 75px;
+	font-size: 30px;
+}
+
+.hidden-link-link {
+	color: white;
+	text-decoration: none;
+}
+
+.fa-github {
+	color: black;
+}
+
+.fa-github:hover {
+	color: cornflowerblue;
+}
+
+.fa-linkedin-square {
+	color: black;
+}
+
+.fa-linkedin-square:hover {
+	color: cornflowerblue;
+}
 
 .fa-cog {
 	font-size: 16px;
@@ -1616,27 +1673,6 @@
 
 nav {
 	margin-top: 25px;
-}
-
-/*.fa-github::before .fa-linkedin-square::before {
-	color: black;
-}*/
-
-.fa-github::before {
-	color: black;
-}
-
-/* don't work :( */
-.fa-github a:hover {
-	color: yellow;
-}
-
-.fa-linkedin-square:before {
-	color: black;
-}
-
-img.project-pic:hover {
-	background-color: rgba(0,0,0,.5);
 }
 
 h2 {
