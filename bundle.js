@@ -9465,15 +9465,15 @@ var _reactDom = __webpack_require__(79);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
+var _main = __webpack_require__(178);
+
+var _main2 = _interopRequireDefault(_main);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 document.addEventListener("DOMContentLoaded", function () {
   var root = document.getElementById("root");
-  _reactDom2.default.render(_react2.default.createElement(
-    'div',
-    null,
-    'Hi'
-  ), root);
+  _reactDom2.default.render(_react2.default.createElement(_main2.default, null), root);
 });
 
 /***/ }),
@@ -21707,6 +21707,101 @@ function traverseAllChildren(children, callback, traverseContext) {
 
 module.exports = traverseAllChildren;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
+
+/***/ }),
+/* 178 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(80);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Main = function (_React$Component) {
+  _inherits(Main, _React$Component);
+
+  function Main() {
+    _classCallCheck(this, Main);
+
+    return _possibleConstructorReturn(this, (Main.__proto__ || Object.getPrototypeOf(Main)).apply(this, arguments));
+  }
+
+  _createClass(Main, [{
+    key: "render",
+    value: function render() {
+      return _react2.default.createElement(
+        "section",
+        { className: "app-container" },
+        _react2.default.createElement(
+          "ul",
+          { className: "skill-list" },
+          _react2.default.createElement(
+            "li",
+            null,
+            "About"
+          ),
+          _react2.default.createElement(
+            "li",
+            null,
+            "Languages"
+          ),
+          _react2.default.createElement(
+            "li",
+            null,
+            "Frameworks"
+          ),
+          _react2.default.createElement(
+            "li",
+            null,
+            "Testing"
+          ),
+          _react2.default.createElement(
+            "li",
+            null,
+            "Teaching"
+          ),
+          _react2.default.createElement(
+            "li",
+            null,
+            "Sample Work"
+          ),
+          _react2.default.createElement(
+            "li",
+            null,
+            "Contact"
+          )
+        ),
+        _react2.default.createElement(
+          "footer",
+          null,
+          _react2.default.createElement("i", { className: "fa fa-github", "aria-hidden": "true" }),
+          _react2.default.createElement("i", { className: "fa fa-linkedin-square", "aria-hidden": "true" })
+        )
+      );
+    }
+  }]);
+
+  return Main;
+}(_react2.default.Component);
+
+exports.default = Main;
+;
 
 /***/ })
 /******/ ]);

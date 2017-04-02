@@ -1,0 +1,40 @@
+html, body, #root {
+  height: 100%;
+}
+
+.app-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skill-list {
+  margin-left: 200px;
+}
+
+ul.skill-list > li {
+  list-style: none;
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  color: dimgrey;
+  margin: 20px 0 20px 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;  
+}
+
+i.fa {
+  font-size: 30px;
+  margin: 5px;
+}
+
+.fa-github {
+  color: red;
+}
+
+.fa-linkedin-square {
+  color: blue;
+}
