@@ -21,6 +21,46 @@ ul.skill-list > li {
   margin: 20px 0 20px 0;
 }
 
+ul.skill-list > li:hover {
+  cursor: pointer;
+  animation: COLOR 1.5s step-end infinite;
+}
+
+@keyframes COLOR {
+  0% { color: plum; }
+  12% { color: green; }
+  24% { color: yellow; }
+  36% { color: blue; }
+  48% { color: orange; }
+  60% { color: deeppink; }
+  72% { color: burlywood; }
+  84% { color: red; }
+}
+
+
+@-webkit-keyframes COLOR {
+  0% { color: plum; }
+  12% { color: green; }
+  24% { color: yellow; }
+  36% { color: blue; }
+  48% { color: orange; }
+  60% { color: deeppink; }
+  72% { color: burlywood; }
+  84% { color: red; }
+}
+
+
+@-moz-keyframes COLOR {
+  0% { color: plum; }
+  12% { color: green; }
+  24% { color: yellow; }
+  36% { color: blue; }
+  48% { color: orange; }
+  60% { color: deeppink; }
+  72% { color: burlywood; }
+  84% { color: red; }
+}
+
 footer {
   position: absolute;
   bottom: 0;  
