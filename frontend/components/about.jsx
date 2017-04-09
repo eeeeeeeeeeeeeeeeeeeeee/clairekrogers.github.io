@@ -5,7 +5,7 @@ export const About = () => (
     <p>
       Web developer
       <br/> 
-      Teacher at App Acadmey
+      Instructor at App Acadmey
     </p>
   </aside>
 );
@@ -33,5 +33,44 @@ export const Frameworks = () => (
     </ul>
   </aside>
 );
+
+export const Testing = () => (
+  <aside className="content">
+    <ul>
+      <li>Jest</li>
+      <li>Enzyme</li>
+      <li>Jasmine</li>
+      <li>RSpec</li>
+      <li>Capybara</li>
+    </ul>
+  </aside>
+);
+
+
+export const Teaching = () => (
+  <aside className="content">
+    <ul>
+      <li>Jest</li>
+      <li>Enzyme</li>
+      <li>Jasmine</li>
+      <li>RSpec</li>
+      <li>Capybara</li>
+    </ul>
+  </aside>
+);
+
+
+export const Work = () => (
+  <aside className="content">
+    <ul>
+      <li>Jest</li>
+      <li>Enzyme</li>
+      <li>Jasmine</li>
+      <li>RSpec</li>
+      <li>Capybara</li>
+    </ul>
+  </aside>
+);
+
 
 
