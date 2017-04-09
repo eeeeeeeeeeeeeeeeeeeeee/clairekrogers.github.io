@@ -6,7 +6,7 @@ export const About = () => (
     <summary>
       I currently teach at App Academy, an SF coding bootcamp.  
       <br/>
-      In this role, I lecture and write curriculum on: 
+      In this role, I lecture and develop curriculum on: 
     </summary> 
       <ul>
         <li><span>React</span></li>
@@ -22,55 +22,27 @@ export const About = () => (
   </aside>
 );
 
-
-export const Languages = () => (
-  <aside className="content">
+export const Skills = () => (
+  <aside className="content skills">
+    <h3>Web Developement:</h3>
+    <ul>
+      <li><span>React/Redux/Flux</span></li>
+      <li><span>Ruby/Rails</span></li>
+      <li><span>Javascript</span></li>
+      <li><span>JQuery</span></li>
+      <li><span>Java</span></li>
+      <li><span>HTML/CSS</span></li>
+      <li><span>SQL</span></li>
+    </ul>
+    <h3>Testing:</h3>
     <ul> 
-      <li>Javascript</li>
-      <li>Ruby</li>
-      <li>Java</li>
-      <li>HTML/CSS</li>
-      <li>SQL</li>
+      <li><span>Jest/Enzyme</span></li> 
+      <li><span>Jasmine</span></li> 
+      <li><span>Capybara</span></li>
+      <li><span>RSpec</span></li>
     </ul>
   </aside>
  );
-
-
-export const Frameworks = () => (
-  <aside className="content"> 
-    <ul>
-      <li>React/Flux/Redux</li>
-      <li>Ruby on Rails</li>
-      <li>jQuery</li>
-    </ul>
-  </aside>
-);
-
-export const Testing = () => (
-  <aside className="content">
-    <ul>
-      <li>Jest</li>
-      <li>Enzyme</li>
-      <li>Jasmine</li>
-      <li>RSpec</li>
-      <li>Capybara</li>
-    </ul>
-  </aside>
-);
-
-
-export const Teaching = () => (
-  <aside className="content">
-    <ul>
-      <li>Jest</li>
-      <li>Enzyme</li>
-      <li>Jasmine</li>
-      <li>RSpec</li>
-      <li>Capybara</li>
-    </ul>
-  </aside>
-);
-
 
 export const Work = () => (
   <aside className="content">

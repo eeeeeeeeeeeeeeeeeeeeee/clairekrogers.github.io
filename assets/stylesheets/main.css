@@ -10,16 +10,20 @@ html, body, #root {
   top: 50%;
   transform: translateY(-50%);
   margin-left: 25%;
+  height: 350px;
 }
 
 .skill-list {
   width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 ul.skill-list > li {
   list-style: none;
   font-size: 30px;
-  margin: 20px 0 20px 0;
+  margin: 10px 0 10px 0;
 }
 
 ul.skill-list > li > a:hover {
@@ -100,6 +104,7 @@ aside {
 .orange { color: orange; }
 .deeppink { color: deeppink }
 .burlywood { color: burlywood; }
+.selected { font-style: italic; }
 ul.skill-list > li > a.selected:hover { animation: none } 
 
 .content {
@@ -118,15 +123,25 @@ ul.skill-list > li > a.selected:hover { animation: none }
   line-height: 22px;
 }
 
-.about > ul {
+.content > ul {
   list-style: circle inside;
   margin-left: 20px;
   line-height: 22px;
 }
 
-.about span {
+.content span {
   margin-left: -10px;
 }
+
+.skills > h3 {
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+
+
+
+
 
 
 
