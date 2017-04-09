@@ -24,7 +24,7 @@ ul.skill-list > li {
 
 ul.skill-list > li > a:hover {
   cursor: pointer;
-  animation: COLOR 1.5s step-end infinite;
+  animation: COLOR 1.2s step-end infinite;
 }
 
 a {
@@ -100,6 +100,36 @@ aside {
 .orange { color: orange; }
 .deeppink { color: deeppink }
 .burlywood { color: burlywood; }
+ul.skill-list > li > a.selected:hover { animation: none } 
+
+.content {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about > h4 {
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+.about > summary {
+  line-height: 22px;
+}
+
+.about > ul {
+  list-style: circle inside;
+  margin-left: 20px;
+  line-height: 22px;
+}
+
+.about span {
+  margin-left: -10px;
+}
+
+
+
 
 
 

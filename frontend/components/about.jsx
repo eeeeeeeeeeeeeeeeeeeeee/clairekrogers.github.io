@@ -1,12 +1,24 @@
 import React from 'react';
 
 export const About = () => (
-  <aside className="content">
-    <p>
-      Web developer
-      <br/> 
-      Instructor at App Acadmey
-    </p>
+  <aside className="content about">
+    <h4>Web developer • Instructor at App Academy</h4>
+    <summary>
+      I currently teach at App Academy, an SF coding bootcamp.  
+      <br/>
+      In this role, I lecture and write curriculum on: 
+    </summary> 
+      <ul>
+        <li><span>React</span></li>
+        <li><span>Redux</span></li>
+        <li><span>JS</span></li>
+        <li><span>Ruby</span></li>
+        <li><span>Rails</span></li>
+        <li><span>SQL</span></li>
+        <li><span>git</span></li>
+        <li><span>jQuery</span></li>
+        <li><span>Testing (RSpec, Capybara, Jest, Enzyme)</span></li>
+      </ul>      
   </aside>
 );
 

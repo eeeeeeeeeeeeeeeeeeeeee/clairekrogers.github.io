@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   ReactDOM.render(
     <Router>
       <div>
-        <Route exact path="/" component={Main}/>
+        <Route path="/" component={Main}/>
       </div>
     </Router>, root
   );

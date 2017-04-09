@@ -12,35 +12,29 @@ class Main extends React.Component {
     super();
     this.state = { selected: undefined };
   }
-
-  componentWillReceiveProps(nextProps) {
-    debugger;
-  }
-
+  
   render() {
     const currentTab = this.props.location.pathname.slice(1);
     const classes = {
-      1: currentTab === "about" ? "plum" : "",
-      2: currentTab === "languages" ? "green" : "", 
-      3: currentTab === "frameworks" ? "orange" : "", 
-      4: currentTab === "testing" ? "deeppink" : "", 
-      5: currentTab === "teaching" ? "burlywood" : "", 
-      6: currentTab === "work" ? "yellow" : "" 
+      1: currentTab === "about" ? "plum selected" : "",
+      2: currentTab === "languages" ? "green selected" : "", 
+      3: currentTab === "frameworks" ? "orange selected" : "", 
+      4: currentTab === "testing" ? "deeppink selected" : "", 
+      5: currentTab === "teaching" ? "burlywood selected" : "", 
+      6: currentTab === "work" ? "yellow selected" : "" 
     }
-    debugger;
 
     return (
-      <Router>
         <section>
           <section className="app-container">
             <ul className="skill-list">
-              <li className={classes[1]}><Link to="/about">About</Link></li>
-              <li className={classes[2]}><Link to="/languages">Languages</Link></li>
-              <li className={classes[3]}><Link to="/frameworks">Frameworks</Link></li>
-              <li className={classes[4]}><Link to="/testing">Testing</Link></li>
-              <li className={classes[5]}><Link to="/teaching">Teaching</Link></li>
-              <li className={classes[6]}><Link to="/work">Sample Work</Link></li>
-              <li className={classes[6]}><Link to="#">Contact</Link></li>
+              <li><Link to="/about" className={classes[1]}>About</Link></li>
+              <li><Link to="/languages" className={classes[2]}>Languages</Link></li>
+              <li><Link to="/frameworks" className={classes[3]}>Frameworks</Link></li>
+              <li><Link to="/testing" className={classes[4]}>Testing</Link></li>
+              <li><Link to="/teaching" className={classes[5]}>Teaching</Link></li>
+              <li><Link to="/work" className={classes[6]}>Sample Work</Link></li>
+              <li><Link to="#" className={classes[6]}>Contact</Link></li>
             </ul>
          
             <Route path="/about" component={About} />
@@ -59,7 +53,6 @@ class Main extends React.Component {
             </a>
           </footer>
         </section>
-      </Router>
     );
   }
 };
