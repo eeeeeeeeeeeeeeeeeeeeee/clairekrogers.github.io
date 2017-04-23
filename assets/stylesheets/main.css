@@ -4,10 +4,30 @@ html, body, #root {
   color: dimgrey;
 }
 
+.darkseagreen { color: darkseagreen; }
+//.darkseagreen.name { background: darkseagreen; }
+.plum { color: plum; }
+//.plum.name { background: plum; }
+.deeppink { color: deeppink; }
+//.deeppink.name { background: deeppink; }
+.selected { font-style: italic; color: deeppink; }
+
+.name {
+  position: absolute;
+  top: 13%;
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+  min-width: 1200px;
+  //color: white;
+  font-style: none;
+  padding: 2px 0 7px 0;
+}
+
 .app-container {
   display: flex;
   position: absolute;
-  top: 50%;
+  top: 55%;
   transform: translateY(-50%);
   margin-left: 25%;
   height: 350px;
@@ -98,13 +118,16 @@ aside {
   border-left: 3px solid dimgrey;
 }
 
+/*
 .plum { color: plum; }
 .green { color: green; }
 .yellow { color: yellow; }
 .orange { color: orange; }
 .deeppink { color: deeppink }
 .burlywood { color: burlywood; }
-.selected { font-style: italic; }
+.darkseagreen { color: darkseagreen; }
+.darkseagreen.name { background: darkseagreen; }
+.selected { font-style: italic; }*/
 ul.skill-list > li > a.selected:hover { animation: none } 
 
 .content {

@@ -16,13 +16,16 @@ class Main extends React.Component {
   render() {
     const currentTab = this.props.location.pathname.slice(1);
     const classes = {
-      1: currentTab === "about" || currentTab === "" ? "orange selected" : "",
-      2: currentTab === "skills" ? "green selected" : "", 
-      3: currentTab === "work" ? "yellow selected" : "" 
+      1: currentTab === "about" || currentTab === "" ? "selected" : "",
+      2: currentTab === "skills" ? "selected" : "", 
+      3: currentTab === "work" ? "selected" : "" 
     }
+    const tabs = { about: 1, skills: 2, work: 3 };
+    const currentColor = classes[tabs[currentTab]] || "darkseagreen";
 
     return (
         <section>
+          <h1 className={`name deeppink`}>Claire Rogers</h1>
           <section className="app-container">
             <ul className="skill-list">
               <li><Link to="/about" className={classes[1]}>About</Link></li>

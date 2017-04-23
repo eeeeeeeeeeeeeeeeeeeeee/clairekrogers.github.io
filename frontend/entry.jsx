@@ -9,7 +9,6 @@ import {
 
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("root");
-  //ReactDOM.render(<Main />, root);
   ReactDOM.render(
     <Router>
       <div>
