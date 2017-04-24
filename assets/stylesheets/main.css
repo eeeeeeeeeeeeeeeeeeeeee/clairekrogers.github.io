@@ -5,11 +5,8 @@ html, body, #root {
 }
 
 .darkseagreen { color: darkseagreen; }
-//.darkseagreen.name { background: darkseagreen; }
 .plum { color: plum; }
-//.plum.name { background: plum; }
 .deeppink { color: deeppink; }
-//.deeppink.name { background: deeppink; }
 .selected { font-style: italic; color: deeppink; }
 
 .name {
@@ -43,7 +40,7 @@ html, body, #root {
 ul.skill-list > li {
   list-style: none;
   font-size: 30px;
-  margin: 10px 0 10px 0;
+  margin: 10px 0;
 }
 
 ul.skill-list > li > a:hover {
@@ -98,7 +95,7 @@ a {
 
 footer {
   position: absolute;
-  bottom: 0;  
+  bottom: 0;
 }
 
 i.fa {
@@ -118,17 +115,7 @@ aside {
   border-left: 3px solid dimgrey;
 }
 
-/*
-.plum { color: plum; }
-.green { color: green; }
-.yellow { color: yellow; }
-.orange { color: orange; }
-.deeppink { color: deeppink }
-.burlywood { color: burlywood; }
-.darkseagreen { color: darkseagreen; }
-.darkseagreen.name { background: darkseagreen; }
-.selected { font-style: italic; }*/
-ul.skill-list > li > a.selected:hover { animation: none } 
+ul.skill-list > li > a.selected:hover { animation: none }
 
 .content {
   font-size: 18px;
@@ -148,13 +135,8 @@ ul.skill-list > li > a.selected:hover { animation: none }
 }
 
 .content > ul {
-  list-style: circle inside;
   margin-left: 20px;
   line-height: 22px;
-}
-
-.content span {
-  margin-left: -10px;
 }
 
 .skills h3 {
@@ -175,6 +157,41 @@ ul.skill-list > li > a.selected:hover { animation: none }
   margin: 10px 0;
   display: flex;
 }
+
+.work div {
+  margin: 1px 0;
+}
+
+.work h3 {
+  display: inline-block;
+  width: 400px;
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+
+.work ul {
+  list-style: disc outside none;
+  margin-left: 40px;
+}
+
+.work .fa-github {
+  color: dimgrey;
+  font-size: 24px;
+}
+
+.work .fa-github:hover {
+  color: deeppink;
+  font-size: 24px;
+}
+
+.work .live:hover {
+  color: blue;
+}
+
+.work span {
+  line-height: 22px;
+}
+
 
 
 

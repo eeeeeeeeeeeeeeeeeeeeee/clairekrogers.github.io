@@ -34,7 +34,7 @@ class Main extends React.Component {
             <Route exact path="/" component={About}/>
             <Route path="/about" component={About} />
             <Route path="/skills" component={Skills} />
-            <Route path="/work" component={Skills} />
+            <Route path="/work" component={Work} />
           </section>
          <footer>
             <a href="https://github.com/clairekrogers">
