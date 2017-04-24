@@ -96,6 +96,8 @@ a {
 footer {
   position: absolute;
   bottom: 0;
+  margin-bottom: 5px;
+  margin-left: 10px;
 }
 
 i.fa {
