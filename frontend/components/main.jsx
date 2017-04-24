@@ -20,12 +20,10 @@ class Main extends React.Component {
       2: currentTab === "skills" ? "selected" : "", 
       3: currentTab === "work" ? "selected" : "" 
     }
-    const tabs = { about: 1, skills: 2, work: 3 };
-    const currentColor = classes[tabs[currentTab]] || "darkseagreen";
 
     return (
         <section>
-          <h1 className={`name deeppink`}>Claire Rogers</h1>
+          <h1 className="name deeppink">Claire Rogers</h1>
           <section className="app-container">
             <ul className="skill-list">
               <li><Link to="/about" className={classes[1]}>About</Link></li>
@@ -42,7 +40,7 @@ class Main extends React.Component {
             <a href="https://github.com/clairekrogers">
               <i className="fa fa-github" aria-hidden="true"></i>
             </a>
-           <a href="https://linkedin.com">
+           <a href="https://linkedin/com/in/clairekrogers">
               <i className="fa fa-linkedin-square" aria-hidden="true"></i>
             </a>
           </footer>
