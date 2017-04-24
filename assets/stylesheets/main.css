@@ -1,0 +1,203 @@
+html, body, #root {
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
+  color: dimgrey;
+}
+
+.darkseagreen { color: darkseagreen; }
+.plum { color: plum; }
+.deeppink { color: deeppink; }
+.selected { font-style: italic; color: deeppink; }
+
+.name {
+  position: absolute;
+  top: 13%;
+  font-size: 50px;
+  text-align: center;
+  width: 100%;
+  min-width: 1200px;
+  //color: white;
+  font-style: none;
+  padding: 2px 0 7px 0;
+}
+
+.app-container {
+  display: flex;
+  position: absolute;
+  top: 55%;
+  transform: translateY(-50%);
+  margin-left: 22%;
+  height: 350px;
+}
+
+.skill-list {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul.skill-list > li {
+  list-style: none;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+ul.skill-list > li > a:hover {
+  cursor: pointer;
+  animation: COLOR 1.2s step-end infinite;
+}
+
+a {
+  color: dimgrey;
+  text-decoration: none;
+}
+
+@keyframes COLOR {
+  0% { color: plum; }
+  12% { color: green; }
+  24% { color: yellow; }
+  36% { color: blue; }
+  48% { color: orange; }
+  60% { color: deeppink; }
+  72% { color: burlywood; }
+  84% { color: red; }
+}
+
+
+@-webkit-keyframes COLOR {
+  0% { color: plum; }
+  12% { color: green; }
+  24% { color: yellow; }
+  36% { color: blue; }
+  48% { color: orange; }
+  60% { color: deeppink; }
+  72% { color: burlywood; }
+  84% { color: red; }
+}
+
+
+@-moz-keyframes COLOR {
+  0% { color: plum; }
+  12% { color: green; }
+  24% { color: yellow; }
+  36% { color: blue; }
+  48% { color: orange; }
+  60% { color: deeppink; }
+  72% { color: burlywood; }
+  84% { color: red; }
+}
+
+.content {
+  width: 500px;
+  padding: 20px 0px 20px 40px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+i.fa {
+  font-size: 30px;
+  margin: 5px;
+}
+
+.fa-github {
+  color: red;
+}
+
+.fa-linkedin-square {
+  color: blue;
+}
+
+aside {
+  border-left: 3px solid dimgrey;
+}
+
+ul.skill-list > li > a.selected:hover { animation: none }
+
+.content {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about > h4 {
+  margin-bottom: 30px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.about > summary {
+  line-height: 22px;
+}
+
+.content > ul {
+  margin-left: 20px;
+  line-height: 22px;
+}
+
+.skills h3 {
+  display: inline-block;
+  width: 180px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.skills p {
+  display: inline;
+  margin-left: 10px;
+  width: 500px;
+  line-height: 20px;
+}
+
+.skills div {
+  margin: 10px 0;
+  display: flex;
+}
+
+.work div {
+  margin: 1px 0;
+}
+
+.work h3 {
+  display: inline-block;
+  width: 400px;
+  font-weight: bold;
+  margin-bottom: -5px;
+}
+
+.work ul {
+  list-style: disc outside none;
+  margin-left: 40px;
+}
+
+.work .fa-github {
+  color: dimgrey;
+  font-size: 24px;
+}
+
+.work .fa-github:hover {
+  color: deeppink;
+  font-size: 24px;
+}
+
+.work .live:hover {
+  color: blue;
+}
+
+.work span {
+  line-height: 22px;
+}
+
+
+
+
+
+
+
+
