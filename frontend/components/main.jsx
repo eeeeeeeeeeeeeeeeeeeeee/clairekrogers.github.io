@@ -12,13 +12,13 @@ class Main extends React.Component {
     super();
     this.state = { selected: undefined };
   }
-  
+
   render() {
     const currentTab = this.props.location.pathname.slice(1);
     const classes = {
       1: currentTab === "about" || currentTab === "" ? "selected" : "",
-      2: currentTab === "skills" ? "selected" : "", 
-      3: currentTab === "work" ? "selected" : "" 
+      2: currentTab === "skills" ? "selected" : "",
+      3: currentTab === "work" ? "selected" : ""
     }
 
     return (
@@ -30,7 +30,8 @@ class Main extends React.Component {
               <li><Link to="/skills" className={classes[2]}>Skills</Link></li>
               <li><Link to="/work" className={classes[3]}>Sample Work</Link></li>
             </ul>
-         
+
+            
             <Route exact path="/" component={About}/>
             <Route path="/about" component={About} />
             <Route path="/skills" component={Skills} />
