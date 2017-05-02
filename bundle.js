@@ -11351,7 +11351,7 @@ var Main = function (_React$Component) {
           ),
           _react2.default.createElement(
             'a',
-            { href: 'https://linkedin/com/in/clairekrogers' },
+            { href: 'https://linkedin.com/in/clairekrogers' },
             _react2.default.createElement('i', { className: 'fa fa-linkedin-square', 'aria-hidden': 'true' })
           )
         )

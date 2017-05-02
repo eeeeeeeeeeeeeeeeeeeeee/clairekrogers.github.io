@@ -41,7 +41,7 @@ class Main extends React.Component {
             <a href="https://github.com/clairekrogers">
               <i className="fa fa-github" aria-hidden="true"></i>
             </a>
-           <a href="https://linkedin/com/in/clairekrogers">
+           <a href="https://linkedin.com/in/clairekrogers">
               <i className="fa fa-linkedin-square" aria-hidden="true"></i>
             </a>
           </footer>
